@@ -2,7 +2,7 @@ language: node_js
 node_js:
      - node
 before_install:
-   - yarn install --no-lockfile
+   - yarn install --frozen-lockfile
 cache:
     yarn : true
     directories:
